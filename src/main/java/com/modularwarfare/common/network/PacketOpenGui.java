@@ -30,7 +30,7 @@ public class PacketOpenGui extends PacketBase {
 
     @Override
     public void handleServerSide(EntityPlayerMP entityPlayer) {
-        entityPlayer.getServerWorld().addScheduledTask(() -> entityPlayer.openGui(ModularWarfare.INSTANCE, 0, entityPlayer.getServerWorld(), 0, 0, 0));
+        //entityPlayer.getServerWorld().addScheduledTask(() -> entityPlayer.openGui(ModularWarfare.INSTANCE, 0, entityPlayer.getServerWorld(), 0, 0, 0));
     }
 
     @Override
